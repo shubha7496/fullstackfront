@@ -17,7 +17,7 @@ export default function Adduser() {
 
     const onSubmit = async(e) =>{
         e.preventDefault();
-        await axios.post("http://localhost:8081/user",user)
+        await axios.post("fullstackfront-production.up.railway.app/user1",user)
         navigate("/")
     };
   return (
