@@ -39,7 +39,7 @@ export default function Adduser() {
                     <label htmlFor='Name' className='form-label'>UserName</label>
                     <input type='text' 
                     className='form-control' 
-                    placeholder='Enter your Username'
+                    placeholder='Enter your username'
                     name='username'
                     value={username}
                     onChange={(e)=>onInputChange(e)}/>
