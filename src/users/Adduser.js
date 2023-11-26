@@ -37,7 +37,7 @@ export default function Adduser() {
                 </div>
                 <div className='mb-3'>
                     <label htmlFor='Name' className='form-label'>UserName</label>
-                    <input type='text' 
+                    <input type='text' gi
                     className='form-control' 
                     placeholder='Enter your username'
                     name='username'
