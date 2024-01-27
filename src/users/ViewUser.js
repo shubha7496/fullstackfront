@@ -16,7 +16,7 @@ export default function ViewUser() {
   }, []);
 
   const loadUser = async () => {
-    const result = await axios.get(`fullstackfront-production.up.railway.app/user/ ${id}`);
+    const result = await axios.get(`http://localhost:8081/user/ ${id}`);
     setUser(result.data);
   };
 
